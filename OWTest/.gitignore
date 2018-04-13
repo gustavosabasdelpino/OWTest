@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TFL/.vs/TFL/v15
+/TFL/packages/RestSharp.105.2.3

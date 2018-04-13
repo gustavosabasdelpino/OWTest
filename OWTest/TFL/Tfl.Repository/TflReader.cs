@@ -1,33 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
+using RestSharp;
 using Tfl.Contract;
 using Tfl.Dto;
 
 namespace Tfl.Repository
 {
-    public class TflReader: ITflReader
+    public class TflReader : ITflReader
     {
-        static HttpClient htttpClient = new HttpClient();
-
         private const string BaseUrl = "https://api.tfl.gov.uk";
 
         public IEnumerable<Arrival> GetNextArrivals(string stopPointId, string lineId)
         {
             var url = $"{BaseUrl}/Line/{lineId}/Arrivals/{stopPointId}?direction=inbound";
-            return Get<IEnumerable<Arrival>>(url).Result;
+            return Get<IEnumerable<Arrival>>(url);
         }
 
-        private async Task<T> Get<T>(string url)
+        private T Get<T>(string url)
         {
-            HttpResponseMessage response = await htttpClient.GetAsync(url);
-            if (response.IsSuccessStatusCode)
-            {
-                return  JsonConvert.DeserializeObject<T>(await response.Content.ReadAsStringAsync());
-            }
-            throw  new ApplicationException($"Response from {url} was not succesful");
+            var restClient = new RestClient(url);
+            var request = new RestRequest("/", Method.GET);
+            request.AddHeader("Content-Type", "application/json");
+            IRestResponse response = restClient.Execute(request);
+            return JsonConvert.DeserializeObject<T>(response.Content);
         }
     }
 }

@@ -11,8 +11,8 @@ namespace Tfl.IntegrationTests
         public void ObtainArrivals()
         {
             TflReader reader = new TflReader();
-            var arrivals = reader.GetNextArrivals("40GZZLUWLO", "bakerloo");
-            Assert.IsFalse(arrivals.Any());
+            var arrivals = reader.GetNextArrivals("940GZZLUWLO", "bakerloo");
+            Assert.IsTrue(arrivals.Any());
         }
     }
 }
