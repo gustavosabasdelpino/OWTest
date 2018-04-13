@@ -17,3 +17,11 @@ Integration tests check the real implementation of each subcomponent of Arrivals
 
 On top of this, we could have some end to test testing to verufy the fucntioning of ArrivalsNotifier, as a service, installes in some service. I see it, though, more like a CI thing. Something to run on some Continuos integrations server and not as part of teh development environment.
 
+
+What´s in, what´s not...
+
+
+The next step would be to implement the notification on train arrival. I managed to write the test (WhenAtrainArrives -> ArrivalIsNotified), not yet the implementation. The class TestTimedRunner should allow us, in test time, to simulate time passing, and we will checl that a notification is sent to FakeDeviceNotifier. Since we´re still realying in ArrivalsNotifier, it will simulate what happens in production when a train has arrived.
+
+In a similar way we would tests that teh system it able to refresh itself once the current predictions are exhausted.
+
