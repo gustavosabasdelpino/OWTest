@@ -1,24 +1,19 @@
 ﻿using System;
 using System.Timers;
+using Tfl.Contract;
 
 namespace TFL.Infrastructure
 {
-    public class TimedRunner
+    public class TimedRunner : ITimedRunner
     {
         private readonly Timer timer;
-        private readonly Action actionToRun;
+        private  Action actionToRun;
 
-        public TimedRunner(Action actionToRun, double interval)
+        public TimedRunner(double interval)
         {
-            this.actionToRun = actionToRun;
-            timer = new Timer {Interval = interval};
-            timer.Elapsed += Timer_Elapsed;
+            timer = new Timer {Interval = interval};   
         }
 
-        private  void Timer_Elapsed(object sender, ElapsedEventArgs e)
-        {
-            actionToRun();
-        }
 
         public void Start()
         {
@@ -31,9 +26,19 @@ namespace TFL.Infrastructure
             timer.Elapsed -= Timer_Elapsed;
         }
 
+        public void SetActionToRun(Action action)
+        {
+            actionToRun = action;
+        }
+
         public void Dispose()
         {
             Stop();
+        }
+
+        private void Timer_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            actionToRun();
         }
 
     }

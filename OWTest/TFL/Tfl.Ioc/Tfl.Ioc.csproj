@@ -48,6 +48,10 @@
       <Project>{1B99E555-E30B-4894-82A0-30F381CFDCBD}</Project>
       <Name>Tfl.Contract</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TFL.Infrastructure\TFL.Infrastructure.csproj">
+      <Project>{F364EEA4-7126-4A78-A3D0-477DEB2A48C2}</Project>
+      <Name>TFL.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tfl.Repository\Tfl.Repository.csproj">
       <Project>{0CA3DEDD-0E5D-4272-B8CF-8C54DD190098}</Project>
       <Name>Tfl.Repository</Name>

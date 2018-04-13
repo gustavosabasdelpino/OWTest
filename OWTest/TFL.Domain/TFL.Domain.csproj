@@ -60,6 +60,10 @@
       <Project>{6611B933-13D9-4511-BDCC-EDAF168DA9B9}</Project>
       <Name>Tfl.Dto</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TFL\TFL.Infrastructure\TFL.Infrastructure.csproj">
+      <Project>{F364EEA4-7126-4A78-A3D0-477DEB2A48C2}</Project>
+      <Name>TFL.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TFL\Tfl.Ioc\Tfl.Ioc.csproj">
       <Project>{4EEB9C15-C14F-4983-98DE-A6927533415A}</Project>
       <Name>Tfl.Ioc</Name>
