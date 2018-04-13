@@ -1,0 +1,9 @@
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\bin\Debug\Tfl.Contract.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\bin\Debug\Tfl.Contract.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\bin\Debug\Tfl.Dto.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\bin\Debug\Tfl.Dto.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\obj\Debug\Tfl.Contract.csprojResolveAssemblyReference.cache
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\obj\Debug\Tfl.Contract.csproj.CoreCompileInputs.cache
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\obj\Debug\Tfl.Contract.csproj.CopyComplete
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\obj\Debug\Tfl.Contract.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Contract\obj\Debug\Tfl.Contract.pdb

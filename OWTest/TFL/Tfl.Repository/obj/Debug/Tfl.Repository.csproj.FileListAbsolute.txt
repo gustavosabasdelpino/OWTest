@@ -1,0 +1,13 @@
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Repository.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Repository.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Contract.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Dto.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Contract.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Tfl.Dto.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\obj\Debug\Tfl.Repository.csprojResolveAssemblyReference.cache
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\obj\Debug\Tfl.Repository.csproj.CoreCompileInputs.cache
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\obj\Debug\Tfl.Repository.csproj.CopyComplete
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\obj\Debug\Tfl.Repository.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\obj\Debug\Tfl.Repository.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Repository\bin\Debug\Newtonsoft.Json.xml

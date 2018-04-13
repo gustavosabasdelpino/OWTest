@@ -1,0 +1,6 @@
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\bin\Debug\TFL.Infrastructure.dll
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\bin\Debug\TFL.Infrastructure.pdb
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\obj\Debug\TFL.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\obj\Debug\TFL.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\obj\Debug\TFL.Infrastructure.dll
+C:\Tesco\Old\OW\OWTest\TFL\TFL.Infrastructure\obj\Debug\TFL.Infrastructure.pdb

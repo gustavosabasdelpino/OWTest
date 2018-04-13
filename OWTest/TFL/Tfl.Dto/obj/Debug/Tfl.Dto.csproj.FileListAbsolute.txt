@@ -1,0 +1,5 @@
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Dto\bin\Debug\Tfl.Dto.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Dto\bin\Debug\Tfl.Dto.pdb
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Dto\obj\Debug\Tfl.Dto.csproj.CoreCompileInputs.cache
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Dto\obj\Debug\Tfl.Dto.dll
+C:\Tesco\Old\OW\OWTest\TFL\Tfl.Dto\obj\Debug\Tfl.Dto.pdb
